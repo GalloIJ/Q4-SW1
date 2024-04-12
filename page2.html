@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body, html {
+            height: 100%; 
+            margin: 0; 
+            background-color: #03b1fc;
+            color: white;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            font-family: Arial, sans-serif; /
+        }
+        .content {
+            text-align: center;
+        }
+        button {
+            background-color: #04AA6D; 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .btn-success {
+            background-color: #4CAF50;
+        }
+        .btn-warning {
+            background-color: #FFC107; 
+            color: black; 
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 id="sample">hello, world!</h1>
+        X<img src="https://png.pngtree.com/png-clipart/20230215/original/pngtree-hand-drawn-cute-dollar-bill-sack-bag-illustration-png-image_8955336.png" width="200px">
+        <script>
+            document.getElementById("sample").innerHTML = "The equivalent amount of 100 pesos in bHAT is 65"; 
+            window.alert("welcome to JavaScript");
+        </script>
+        
+        <div>
+            <a href="index.html">
+                <button type="button" class="btn btn-success">Back to the main page</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
